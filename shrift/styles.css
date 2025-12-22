@@ -1,0 +1,22 @@
+
+@font-face {
+   font-family: "NotMyFont";
+   src: url(./ComicRelief-Regular.ttf);
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: "Comic Relief", system-ui;
+
+}
+
+p {
+    margin: 15px 0;
+    font-family: 'NotMyFont', sans-serif;
+}
+.div
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
