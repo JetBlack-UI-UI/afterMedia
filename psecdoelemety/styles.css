@@ -1,0 +1,62 @@
+.box {
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+}
+
+.box::before {
+   content: "pered soderzhimogo";
+   display: block;
+   color: #4f84bc;
+   margin-bottom: 10px;
+   width: 15px;
+    height: 20px;
+}
+
+
+.zadanie2
+{
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+}
+
+.zadanie2::after {
+   content: "posle soderzhimogo🏇🏼🏇🏼🏇🏼🏇🏼🏇🏼";
+   display: block;
+   color: #007bff;
+   margin-top: 10px;
+}
+
+
+
+
+.zadanie3
+{
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+}
+
+
+.zadanie3::before {
+   content: "+++---+++";
+   display: block;
+   color: #4f84bc;
+   margin-bottom: 10px;
+
+    height: 20px;
+}
+
+.zadanie3::after {
+   content: "---++++++";
+   display: block;
+   color: #007bff;
+   margin-top: 10px;
+}
+
+
+.zadanie3:first-letter {
+   font-size: 2em;
+   color: #2a9057;
+}
