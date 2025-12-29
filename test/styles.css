@@ -1,0 +1,63 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+}
+
+.cards__card {
+    background-color: #ffffff;
+    width: 380px;
+    height: 582px;
+    border-radius: 10px;
+    border: 1px solid rgba(242, 246, 250, 1);
+}
+
+.cards__card-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cards__card-title {
+    color: rgba(44, 45, 53, 1);
+    font-family: system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    margin: 50px 89px 0 44px;
+    width: 247px;
+}
+
+.cards__card-description {
+    color: rgba(46, 54, 62, 1);
+    font-family: system-ui, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 12px 96px 0 44px;
+    width: 240px;
+}
+
+.cards__card-price {
+    color: rgba(67, 75, 83, 1);
+    font-family: system-ui, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 24px 228px 0 44px;
+}
+
+.cards__card-button {
+    background-color: rgba(254, 216, 76, 1);
+    color: rgba(46, 54, 62, 1);
+    border: none;
+    border-radius: 8px;
+    width: 163px;
+    height: 68px;
+    font-family: system-ui, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 18px 44px 0 44px;
+    cursor: pointer;
+}
